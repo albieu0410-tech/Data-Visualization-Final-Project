@@ -7,9 +7,12 @@ Engine Atlas: data-driven analysis of car engine performance, efficiency, and ev
 engine-atlas/
   data/
     Car Dataset 1945-2020.csv
+    processed/
   notebooks/
     01_cleaning.ipynb
+    01_cleaning.pdf
     02_analysis.ipynb
+    02_analysis.pdf
   app/
     Engine_Atlas.py
     pages/
@@ -21,8 +24,8 @@ engine-atlas/
       engine_dna/
   assets/
     styles.css
-    svg/
-```
+    graphs/
+  ```
 
 ## Setup
 ```bash
