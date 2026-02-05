@@ -1,0 +1,39 @@
+[project]
+name = "engine-atlas"
+version = "0.1.0"
+description = "Engine Atlas: data-driven analysis of car engines (1945–2020)"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  # Data
+  "pandas>=2.1",
+  "numpy>=1.26",
+  "pyarrow>=14.0",
+
+  # Viz
+  "plotly>=5.18",
+  "kaleido>=0.2",
+  "matplotlib>=3.8",
+
+  # ML / classification
+  "scikit-learn>=1.4",
+
+  # App
+  "streamlit>=1.30",
+  "streamlit-extras>=0.4",
+
+  # Data access
+  "kagglehub>=0.2",
+
+  # Useful utilities
+  "pydantic>=2.5",
+]
+
+[tool.uv]
+dev-dependencies = [
+  "jupyterlab>=4.0",
+  "ipykernel>=6.29",
+  "ruff>=0.1",
+  "black>=24.1",
+]
