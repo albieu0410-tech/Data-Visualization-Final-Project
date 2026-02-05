@@ -62,6 +62,7 @@ uv run streamlit run app/Engine_Atlas.py
 - Push the repo to GitHub.
 - In Streamlit Cloud, set the app entrypoint to `app/Engine_Atlas.py`.
 - Ensure `pyproject.toml` is in the repo root.
+- Live app: https://data-visualization-final-project-arnj3vzyv2aafqz69hja4y.streamlit.app/
 
 ## Presentation outline
 See `assets/presentation_outline.md` for slide structure and screenshot targets.
